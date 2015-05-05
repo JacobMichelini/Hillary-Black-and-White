@@ -1,0 +1,506 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+@font-face {
+	font-family: Heading;
+	src: url("ostrich-black.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: opensans;
+	src: url("MuseoSans_500.otf") format("opentype");
+
+}
+
+.fullwrap {
+	/background-image: url(../images/paintings/electric-tulips.jpg);
+	background-color: #107090;
+	width: 100%;
+	min-height: 100%;
+	background-repeat: repeat-y;
+	background-size: 100%;
+	background-attachment: scroll;
+	overflow: hidden;
+}
+
+
+
+
+.midwrap {
+	max-width: 1200px;
+	min-width: 525px;
+	width: 100%;
+	min-height: 100%;
+	background-color: transparent;
+	margin: auto; 
+}
+.header {
+	min-height: 150px;
+	width: 100%;
+	margin-top: 20px;
+	background-color: transparent;
+}
+
+.topnav {
+	width: 100%;
+	background-color: transparent;
+	margin-bottom: 10px;
+	/box-shadow: 0px 0px 8px grey;
+}
+
+.content_module {
+	float: left;
+	/min-height: 30px;
+	width: 100%;
+	background-color: white;
+	margin: -49px 0px 0px 0px;
+	/box-shadow: 0px 0px 8px grey;
+	margin-bottom: 10px;
+}
+
+.content_title {
+	min-width: 100px;
+	width: 63%;
+	min-height: 49px;
+	background-color: white;
+	position: relative;
+	top: -49px;
+	float: right;
+}
+
+.left_tri {
+	width: 0;
+	height: 0;
+	border-bottom: 49px solid white;
+	border-left: 49px solid transparent;
+	position: absolute;
+	left: -49px;
+}
+
+.right_tri {
+	width: 0;
+	height: 0;
+	border-top: 34px solid white;
+	border-right: 34px solid transparent;
+	position: absolute;
+	right: -34px;
+	top: 0px;
+}
+
+.navitem:hover .right_tri {
+	border-top: 34px solid black;
+
+	-webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+
+}
+
+.navitem {
+	position: relative;
+	background-color: white;
+	min-width: 140px;
+	color: black;
+	font-family: 'Heading', Sans-serif;
+	font-size: 30px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 4px;
+	box-shadow: 0px 0px 0px 0px black;
+
+    -webkit-transition: box-shadow 5s ;
+    -moz-transition: box-shadow 5s ;
+    -o-transition: box-shadow 5s ;
+    transition: box-shadow 5s ;
+}
+
+.triimage {
+	float: left;
+	align: left;
+	position: relative;
+	margin: 10px 12px 10px 10px;
+	pointer-events: none;
+	width: 380px;
+	-webkit-transition: all .3s ;
+    -moz-transition: all .3s ;
+    -o-transition: all .3s ;
+    transition: all .3s ;
+
+}
+
+.regtext {
+	margin: 10px 15px 10px 15px;
+	font-family: 'opensans', Sans-serif;
+	font-size: 15px;
+}
+
+.navitem:hover {
+	padding-left: 5px;
+	background-color: black;
+	color: white;
+	box-shadow: -100px 0px 0px 0px white, 0px 0px 0px 0px black;
+
+    -webkit-transition: all .7s ;
+    -moz-transition: all .7s ;
+    -o-transition: all .7s ;
+    transition: all .7s ;
+}
+
+
+h1 {
+	font-family: 'Heading', Sans-serif;
+	color: white;
+	font-size: 180px;
+	margin-bottom: -17px;
+	text-shadow: 0px 0px 5px grey;
+	transform:scale(1.18,1); 
+  	-webkit-transform:scale(1.15,1);
+  	margin-left: 80px;
+  	display:inline-block; 
+}
+
+
+h2 {
+	color: black;
+	font-family: 'Heading', Sans-serif;
+	font-size: 35px;
+	position: absolute;
+	bottom: 0px;
+	padding-bottom: 0px;
+	margin-left: 35px;
+}
+
+h3 {
+	color: black;
+	font-family: 'Heading', Sans-serif;
+	font-size: 25px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	padding-top: 3px;
+	background-color: #e1e1e1;
+}
+
+h4 {
+	font-family: 'Heading', Sans-serif;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	background-color: #222;
+	padding-top: 4px;
+}
+
+h5 {
+	font-weight: bolder;
+	font-size: 17px;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 4px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.in1 {
+	margin-right: 49.6%;
+}
+
+.in2 {
+	margin-right: 53.2%;
+}
+
+.in3 {
+	margin-right: 56.8%;
+}
+
+.in4 {
+	margin-right: 60.4%;
+}
+
+.in5 {
+	margin-right: 64.0%;
+}
+
+.in6 {
+	margin-right: 67.6%;
+}
+
+
+.reglist {
+	/list-style-image: url('delta.png');
+	list-style-position:inside;
+	font-family: 'opensans', Sans-serif;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-bottom:15px;
+	margin-right: 15px;
+	box-shadow:0px 0px 5px #bbb;
+	border-radius: 2px;
+	line-height: 140%;
+	padding: 10px 10px 10px 5px;
+}
+
+.regitem {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+
+
+.regitem:nth-child(odd) {
+	background: #F5F5F5;
+}
+
+.regitem:nth-child(even) {
+	background: #FFF;
+}
+
+.regitem:hover {
+	background-color: black;
+	color: white;
+}
+
+.regitem:hover em {
+	background-color: white;
+	color: black;
+}
+
+.footer {
+	width: 100%;
+	min-height: 15px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #000;
+}
+
+b {
+	font-weight: bold;
+}
+
+em {
+	font-weight: bold;
+	background-color: #000;
+	border-radius: 50%;
+	padding: 3px 8px 3px 8px;
+	color: #fff;
+}
+
+.threecol {
+	width: calc(33.8% - 10px);
+	background-color: transparent;
+	margin-top: 13px;
+	float: left;
+	overflow: hidden;
+}
+
+.thick {
+	width: calc(33.3% - 60px);
+	font-family: 'opensans', Sans-serif;
+	font-size: 14px;
+	margin: 10px 30px 10px 30px;
+
+	-webkit-transition: all .3s ;
+    -moz-transition: all .3s ;
+    -o-transition: all .3s ;
+    transition: all .3s ;
+}
+
+.onecol {
+	width: 100%;
+	background-color: transparent;
+	float:left;
+	overflow: hidden;
+}
+
+.onecol_inner {
+	width: calc( 100% - 60px);
+	margin-left: 30px;
+
+}
+
+.twocol {
+	width: calc(50% - 10px);
+	background-color: transparent;
+	margin-top: 13px;
+	float: left;
+	overflow: hidden;
+}
+
+.gallery {
+	width: calc(100% - 15px);
+	margin-bottom: 12px;
+	box-shadow:0px 0px 8px #999;
+	margin-left: 13px;
+	border: 1px solid #000;
+}
+
+.artmenu {
+	height: 49px;
+	width: 100%;
+}
+
+.artbutton {
+	display: inline-block;
+	width: 33%;
+	height: calc(100% - 10px);
+	padding-top: 10px;
+	font-family: 'Heading', Sans-serif;
+	font-size: 30px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	margin-right: -4px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.artbutton:hover {
+	background-color: black;
+	color: white;
+	border-bottom: 10px solid white;
+}
+
+.cheatmenu {
+	height: 24px;
+	width:calc(100% - 4px);
+	border-bottom: 1px solid black;
+	
+}
+
+.two {
+	border-bottom:none;
+}
+
+.cheatbutton {
+	display: inline-block;
+	width: calc( ( 100% / 4 ) - 4px );
+	height: calc(100% - 4px);
+	padding-top: 3px;
+	font-family: 'Heading', Sans-serif;
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	margin-right: -4px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	-webkit-transition: background 0.5s linear;
+	-moz-transition: background 0.5s linear;
+	-ms-transition: background 0.5s linear;
+	-o-transition: background 0.5s linear;
+	transition: background 0.5s linear;
+}
+
+.long {
+	-webkit-transition: font-size .3s ;
+    -moz-transition: font-size .3s ;
+    -o-transition: font-size .3s ;
+    transition: font-size .3s ;
+    border-bottom: 1 px solid black;
+}
+
+.cheatbutton:hover {
+	background-color: black;
+	color: white;
+}
+
+.crumb {
+	border-bottom: 3px solid black;
+}
+
+@media only screen 
+and (max-width : 755px) {
+	
+	.reglist {
+		margin-left: 10px;
+	}
+
+	.navitem {
+		background-color: #f5f5f5;
+	}
+
+	.right_tri {
+		border-top: 34px solid #f5f5f5;
+	}
+
+	.artbutton {
+		font-size: 25px;
+	}
+
+	.long {
+		font-size: 14px;
+		padding-top: 10px;
+	}
+
+	.thick {
+	width: calc(33.3% - 15px);
+	font-family: 'opensans', Sans-serif;
+	font-size: 15px;
+	margin: 10px 5px 10px 10px;
+	}
+}
+
+
+
+.fullwrap-zoom {
+	background-color: black;
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.gallery-zoom {
+	max-width: 100%;
+	max-height: 100vh;
+}
+
+.pic-info {
+	font-family: 'Heading', Sans-serif;
+	font-size: 18px;
+	background-color: #fff;
+	margin-top: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.backbutton {
+	position: fixed;
+	font-family: 'Heading', Sans-serif;
+	font-size: 30px;
+	background-color: #fff;
+	width: 60px;
+	padding-left: 10px;
+	border:2px solid white;
+}
+
+.backbutton:hover {
+	background-color: #000;
+	color: white;
+	border:2px solid white;
+}
+
+a:visited {
+	color: inherit;
+}
+a:link {
+	color: #206099;
+}
+
+.breadcrumb {
+	background-color: #303030;
+	color: white;
+}
+
+code {
+	font-family: courier;
+	font-size: 14px;
+	color: #204075;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>Hillary Sanders</title>
+		<link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+		<link type="text/css" rel="stylesheet" href="../css/mainstylesheet.css"/>
+		<link rel="shortcut icon" href="../favicon.ico">
+	</head>
+
+	<body>
+
+		<div class="fullwrap">
+			<div class="midwrap">
+				<div class ="header"><h1>HILLARY SANDERS</h1></div>
+				<div class ="topnav">
+					<ul class="navlist">
+						<a href="../index.html"><li class="navitem in1"><div class="right_tri"></div>ABOUT HILLZ</li></a>
+						<a href="../cheatsheets/emacs.html"><li class="navitem in2"><div class="right_tri"></div>CHEATSHEETS</li></a>
+						<a href="../code.html"><li class="navitem in3"><div class="right_tri"></div>CODE</li></a>
+						<a href="../graphs.html"><li class="navitem in4"><div class="right_tri"></div>GRAPHS</li></a>
+						<a href="../paintings.html"><li class="navitem in5"><div class="right_tri"></div>ART</li></a>
+						<a href="../resume.html"><li class="navitem in6"><div class="right_tri"></div>RESUME</li></a>
+					</ul>
+				</div>
+				<div class="content_title"><div class="left_tri"></div>
+					<ul class="cheatmenu">
+						<a href="emacs.html"><li class="cheatbutton">EMACS</li></a>
+						<a href="python.html"><li class="cheatbutton">PYTHON</li></a>
+						<a href="scala.html"><li class="cheatbutton">SCALA</li></a>
+						<a href="latex.html"><li class="cheatbutton">LATEX</li></a>
+					</ul>
+					<ul class="cheatmenu two">
+						<a href="unix.html"><li class="cheatbutton">UNIX</li></a>
+						<a href="ruby-on-rails.html"><li class="cheatbutton long">RUBY ON RAILS</li></a>
+						<a href="probability.html"><li class="cheatbutton long">PROBABILITY</li></a>
+						<a href="bayesian-statistics.html"><li class="cheatbutton long">BAYESIAN STATS</li></a>
+					</ul>
+				</div>
+
+				<div class ="content_module">
+
+					<div class="onecol">
+          				<h4><b>Javascript</b></h4>
+         			</div>
+
+
+                     <div class="threecol thick">
+                      <h3> <b>Data Structures</b> </h3>
+                      <h3>Numbers</h3>
+                      - Includes integers, <code>+infinity</code> and <code>-infinity</code>, and <code>NaN</code> (not a number)<br>
+                      - Numbers can be a bit weird in javascript because not a lot of digits are stored in memory.
+                      While<br> <code> 0.1 + 0.2 == 0.30000000000000004 </code> returns <code> true, <br> </code>
+                      <code>0.1 + 0.2 == 0.3000000000000004</code> (one less zero) returns <code>false</code>.
+                      <br> <br>
+                      There's a built-in object called <code>Math</code> that helps out with a few mathematical functions and constants.
+                      <br>
+                      <code>Math.sin(0)</code><comment> // 0</comment><br>
+                      <code>Math.round(Math.exp(2))</code> <comment> // 7 </comment><br>
+                      <code>Math.pi</code> <comment> // 3.141592653589793 </comment><br>
+                      <br>
+                      There are built in functions that can, for example, convert characters to integers (the 10 = the base).<br>
+                      <code>parseInt("123", 10)</code> <comment> // 123</comment><br>
+                      <code>parseInt("ummm")</code> <comment> // NaN </comment><br>
+                      <code>+"10"</code> <comment> // 10</comment><br>
+
+                      <h3>Strings</h3>
+                      substr(begin, length)<br>
+                      <code> 'hello world!'.substr(6, 5) </code> <comment> // "world" </comment><br>
+                      <code> "hello".charAt(0)</code> <comment> // "h" </comment><br>
+                      <code> "Eww, ice cream".replace("Eww,", "I like") </code> <comment> // "I like ice cream"</comment><br>
+                      <code> "hello".toUpperCase()</code> <comment> // "HELLO"</comment><br>
+                      <code> "ice" + " " + "cream"</code> <comment> // "ice cream"</comment><br>
+                      Note that when coercing numbers to characters, order matters. If the numbers come first, they'll be
+                      added together before being coerced to characters.
+                      <code>"1" + 2 + 3 </code> <comment> // "123" </comment><br>
+                      <code> 2 + 3 + "1" </code> <comment> // "51"</comment><br>
+
+
+                      <h3>Booleans</h3>
+                      <code>false</code>: <code>false</code>, <code>0</code>, the empty string <code>""</code>, <code>NaN</code>, <code>null</code>, and <code>undefined</code> all become false.
+                      <br>
+                      <code>true</code>: everything else. <br>
+
+                      <h4>Comparisons:</h4>
+                      <code><</code>, <code>></code>, <code><=</code>, <code>>=</code>, <code>==</code>, <code>===</code>, <code>!=</code>
+
+                      <code>1==true</code> <comment> // True</comment><br>
+                      <code>1===true </code> <comment> // False</comment><br>
+                      <code>1===1</code> <comment> // True</comment><br>
+
+
+                      <h3>Undefined</h3>
+                      An unititialized value. If you declare a variable without assigning a value to it, it will be <code>Undefined</code>.
+
+
+                      <h3>Null</h3>
+                      A deliberate non-value.
+
+
+                      <h3>Objects</h3>
+                      &nbsp;&nbsp;&nbsp;<li> <h3> Functions</h3></li>
+                      &nbsp;&nbsp;&nbsp;<li> <h3> Arrays</h3></li>
+                      &nbsp;&nbsp;&nbsp;<li> <h3> Dates</h3></li>
+                      &nbsp;&nbsp;&nbsp;<li> <h3> Regular Expressions</h3></li>
+
+
+                      <code> </code> <comment> // </comment><br>
+
+
+                      <code> var a = 4</code> <comment> </comment><br>
+
+
+                     </div>
+
+                     <div class="threecol thick">
+                      <h3>Control Structures</h3>
+                      <h3>If else</h3>
+                      <code>var name = "kittens"; <br>
+                            if (name == "puppies") { <br>
+                            &nbsp;&nbsp;&nbsp;name += "!"; <br>
+                            } else if (name == "kittens") { <br>
+                            &nbsp;&nbsp;&nbsp;name += "!!"; <br>
+                            } <br>
+                            name == "kittens!!"</code>  <comment> // True </comment>
+
+                      <h3>While Loops</h3>
+                      <code>
+                      while (true) { <br>
+                      &nbsp;&nbsp;&nbsp; <comment>// an infinite loop! </comment><br>
+                      } <br>
+                      </code>
+                      <br>
+                      <code>
+                        do {<br>
+                        &nbsp;&nbsp;&nbsp; input = get_input();<br>
+                        } while (inputIsNotValid(input))<br>
+                      </code>
+
+                      <h3>For Loops</h3>
+                      C like: <br>
+                      <code>
+                      for (var i = 0; i < 5; i++) { <br>
+                      &nbsp;&nbsp;&nbsp; <comment>// Will execute 5 times </comment> <br>
+                      }</code> <br>
+                      <br>
+                      Nicer: <br>
+                      <code>
+                      for (var i = 0, item; item = a[i++];) { <br>
+                      &nbsp;&nbsp;&nbsp; <comment> // Do something with item </comment><br>
+                      }<br>
+                      </code>
+                      <br>
+                      R like: <br>
+                      <code>
+                        x = [1,2,3] <br>
+                        for(i in x){ <br>
+                        &nbsp;&nbsp;&nbsp;<comment> // do something... </comment> <br>
+                      } <br>
+                      </code>
+
+                     </div>
+
+                     <div class="threecol thick" id="js">
+                      <center>
+                        <input type="text" id="typey_box"/>
+                        <button onclick="do_things()">Click</button>
+                        <div id="output">Results will appear here.</div>
+
+                      </center>
+
+                     </div>
+
+
+
+				</div>
+
+				<div class ="content_module footer"></div>
+
+			</div>
+		</div>
+	</body>
+</html>
+
+

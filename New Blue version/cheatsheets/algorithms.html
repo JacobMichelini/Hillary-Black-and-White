@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>Hillary Sanders</title>
+		<link type="text/css" rel="stylesheet" href="../css/reset.css"/>
+		<link type="text/css" rel="stylesheet" href="../css/mainstylesheet.css"/>
+		<link rel="shortcut icon" href="../favicon.ico">
+	</head>
+
+	<body>
+
+		<div class="fullwrap">
+			<div class="midwrap">
+				<div class ="header"><h1>HILLARY SANDERS</h1></div>
+				<div class ="topnav">
+					<ul class="navlist">
+						<a href="../index.html"><li class="navitem in1"><div class="right_tri"></div>ABOUT HILLZ</li></a>
+						<a href="../cheatsheets/emacs.html"><li class="navitem in2"><div class="right_tri"></div>CHEATSHEETS</li></a>
+						<a href="../code.html"><li class="navitem in3"><div class="right_tri"></div>CODE</li></a>
+						<a href="../graphs.html"><li class="navitem in4"><div class="right_tri"></div>GRAPHS</li></a>
+						<a href="../paintings.html"><li class="navitem in5"><div class="right_tri"></div>ART</li></a>
+						<a href="../resume.html"><li class="navitem in6"><div class="right_tri"></div>RESUME</li></a>
+					</ul>
+				</div>
+				<div class="content_title"><div class="left_tri"></div>
+					<ul class="cheatmenu">
+						<a href="algorithms.html"><li class="cheatbutton breadcrumb">ALGORITHMS</li></a>
+						<a href="python.html"><li class="cheatbutton">PYTHON</li></a>
+						<a href="scala.html"><li class="cheatbutton">SCALA</li></a>
+						<a href="latex.html"><li class="cheatbutton">LATEX</li></a>
+					</ul>
+					<ul class="cheatmenu two">
+						<a href="unix.html"><li class="cheatbutton">UNIX</li></a>
+						<a href="ruby-on-rails.html"><li class="cheatbutton long">RUBY ON RAILS</li></a>
+						<a href="probability.html"><li class="cheatbutton long">PROBABILITY</li></a>
+						<a href="bayesian-statistics.html"><li class="cheatbutton long">BAYESIAN STATS</li></a>
+					</ul>
+				</div>
+				
+				<div class ="content_module">
+
+					<div class="onecol">
+          				<h4><b>Algorithms</b></h4>
+         			</div>
+
+					<div class="threecol thick">
+			            <h3> Simple Sorting </h3>
+			            <h5>Insertion Sort</h5>
+			            Fast for a very small number of elements. Classicly bad otherwise.
+			            <br><br>
+			            Example Objects: <code>raw</code> (raw list), and <code>sorted</code>, initially <code>[]</code>.
+			            <br>
+			            <br>
+			            	Let <code>sorted[0] = raw[1]</code>. For each element in <code>raw[1:length(raw)]</code>, loop through sorted[n:1] until <code>sorted[i] > element</code>. Insert element into <code>sorted[i+1]</code>.
+			            <br>
+			            <br>
+			            <li>Worst Case Run Time: <code>an^2 + bn + c</code></li>
+
+			            <h5>Merge Sort</h5>
+			            Faster than Simple Sorting, especially for larger sequences.
+			            <br><br>
+			            Merge sort uses the divide and conquer strategy:<br><br>
+			            <b>Divide: </b> Divide your n-elements into two subsequences of n/2 elements each.<br><br>
+			            <b>Conquer: </b> Sort each subsequence recursively using merge sort. (split up again into 2 parts, until you only have 2 elements per group, and then sort).<br><br>
+			            <b>Combine: </b> Merge the two sorted subsequences to produce the sorted answer.<br><br>
+
+			            Two sorted sets of elements can merged into one sorted set quite quickly. Imagine two decks of sorted cards (so that the top card is the smallest), each with <code>n/2</code> cards, facing up. Simply pick the smaller card and place that card into a final pile. Repeat. At worst, this takes <code>n</code> operatoins.
+
+
+			            <br><br><br><br><br><br>
+			            <br><br><br><br><br><br>
+			            <br><br><br><br><br><br>
+			         </div>
+			         
+			         <div class="threecol thick">
+			         </div>
+
+			         <div class="threecol thick">
+			        
+				</div>
+
+				<div class ="content_module footer"></div>
+
+			</div>
+		</div>
+	</body>
+</html>
+
+
